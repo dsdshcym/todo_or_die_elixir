@@ -1,11 +1,13 @@
 # TodoOrDie
 
-**TODO: Add description**
+This package was inspired by Justin Searls' Ruby Gem [TODO or
+Die!](https://github.com/searls/todo_or_die). All credits to him!
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `todo_or_die` to your list of dependencies in `mix.exs`:
+It's [available in Hex](https://hex.pm/packages/todo_or_die), the
+package can be installed by adding `todo_or_die` to your list of
+dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -18,4 +20,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/todo_or_die](https://hexdocs.pm/todo_or_die).
-
