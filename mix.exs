@@ -7,7 +7,15 @@ defmodule TodoOrDie.MixProject do
       version: "0.1.0",
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      description: "Mark TODOs with a deadline. Once it's due, your app won't compile.",
+      package: [
+        name: "todo_or_die",
+        licenses: ["MIT"],
+        links: %{"GitHub" => "https://github.com/dsdshcym/todo_or_die_elixir"}
+      ],
+      deps: deps(),
+      name: "TODO or Die",
+      source_url: "https://github.com/dsdshcym/todo_or_die_elixir"
     ]
   end
 
